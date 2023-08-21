@@ -28,6 +28,14 @@
 .logo {
   cursor: pointer;
   grid-area: logo;
+  color: white;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  font-size: 30px;
+
+  &:hover {
+    transform: scale(1.01);
+  }
 }
 
 .links {

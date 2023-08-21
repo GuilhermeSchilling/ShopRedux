@@ -1,5 +1,4 @@
 import styles from './Navbar.module.scss';
-import { ReactComponent as Logo } from '../../assets/logo.svg';
 import classNames from 'classnames';
 import {
   RiShoppingCart2Line,
@@ -18,13 +17,13 @@ export default function Navbar() {
   const navigate = useNavigate();
   return (
     <nav className={styles.nav}>
-      <Logo className={styles.logo} onClick={() => navigate('/')} />
+      <h1 className={styles.logo} onClick={() => navigate('/')} >Shop Redux</h1>
       <div className={styles.links}>
         <div>
           <Link to='/' className={classNames(styles.link, {
             [styles.selected]: location.pathname === '/'
           })}>
-            Página inicial
+            Página Inicial
           </Link>
         </div>
       </div>

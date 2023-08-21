@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <div>
       <Header
-        titulo='Classificados Tech'
-        descricao='Compre diversos tipos de produtos no melhor site do Brasil!'
+        titulo='Comece agora mesmo!'
+        descricao='A loja virtual do jeitinho que você gosta!'
         imagem={relogio}
         className={styles.header}
       />
